@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459149840078",
+    "project_id": "hallowed-winter-427307-p3",
+    "storage_bucket": "hallowed-winter-427307-p3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459149840078:android:ee87273cb84a552754ca9f",
+        "android_client_info": {
+          "package_name": "com.example.goal_marker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlSSvFr_9s4H4VQQNHvJ5FyUC1bsJEaYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

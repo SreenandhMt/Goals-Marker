@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 class HomeBottomWidget extends StatelessWidget {
   const HomeBottomWidget({
-    Key? key,
+    super.key,
     this.onTap,
     required this.text,
     required this.selected,
-  }) : super(key: key);
+  });
   final Function()? onTap;
   final String text;
   final bool selected;
