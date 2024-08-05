@@ -30,11 +30,11 @@ class _GoalWidgetState extends State<GoalWidget> {
         height: 100,
         margin: const EdgeInsets.only(left: 10, top: 5, bottom: 5, right: 10),
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(8), color: Colors.grey.shade100),
+            borderRadius: BorderRadius.circular(8), color:widget.check?const Color.fromARGB(255, 120, 222, 124): Colors.grey.shade100),
         child: Row(
           children: [
             const SizedBox(width: 20),
-            Checkbox(value: widget.check, onChanged: widget.onTap),
+            Checkbox(value: widget.check, onChanged: widget.onTap,activeColor: WidgetStateColor.resolveWith((states) => Colors.green,),),
             const SizedBox(width: 20),
              Text(
               widget.title,

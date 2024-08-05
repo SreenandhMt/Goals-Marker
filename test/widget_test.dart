@@ -9,6 +9,6 @@ void main()async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-   await HomeServices().addData(type: "dey", datetime: DateTime.now().toString(),id: DateTime.now().microsecondsSinceEpoch.toString());
+  //  await HomeServices().addData(type: "dey", datetime: DateTime.now().toString(),id: DateTime.now().microsecondsSinceEpoch.toString());
   //  print(data.toString());
 }

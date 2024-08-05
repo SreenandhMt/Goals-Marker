@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -10,6 +12,7 @@ import 'package:goal_marker/pages/home/home_page.dart';
 import 'package:goal_marker/pages/profile/profile_page.dart';
 import 'package:goal_marker/services/auth/auth_services.dart';
 import 'package:goal_marker/services/home/home_provider.dart';
+import 'package:goal_marker/services/profile/profile_provider.dart';
 import 'package:provider/provider.dart';
 
 import 'firebase_options.dart';
@@ -85,8 +88,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => AuthServices(),),
-        ChangeNotifierProvider(create: (context) => HomeServices(),)
+        ChangeNotifierProvider(create: (context) => AuthServices()),
+        ChangeNotifierProvider(create: (context) => HomeServices()),
+        ChangeNotifierProvider(create: (context) => ProfileServcies())
       ],
       child: MaterialApp.router(
         title: 'Goal Marker',

@@ -13,6 +13,11 @@ class HomeBottomWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(onTap: onTap,child: Container(padding: const EdgeInsets.only(left: 27,right: 27,top: 10,bottom: 10),margin: const EdgeInsets.all(5), decoration: BoxDecoration(color:selected?Colors.grey.shade600: Colors.grey.shade300,borderRadius: BorderRadius.circular(10)),child: Center(child: Text(text),),));
+    final size = MediaQuery.of(context).size;
+    if(size.width>1000)
+    {
+      return const SizedBox();
+    }
+    return GestureDetector(onTap: onTap,child: Container(width: size.width*0.2,height: size.width*0.1,margin: const EdgeInsets.all(5), decoration: BoxDecoration(color:selected?const Color.fromARGB(255, 104, 212, 109): Colors.grey.shade300,borderRadius: BorderRadius.circular(8)),child: Center(child: Text(text),),));
   }
 }
