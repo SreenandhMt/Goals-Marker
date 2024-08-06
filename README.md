@@ -1,6 +1,16 @@
-# goal_marker
+# Goal Marker
 
 A new Flutter project.
+
+#Images
+![Screenshot 2024-08-06 154520](https://github.com/user-attachments/assets/42aba135-1a91-4bc0-b852-fa51e45ce7af)
+![Screenshot 2024-08-06 154515](https://github.com/user-attachments/assets/2f79c21d-474e-4b67-b193-9bc33a5a93d4)
+![Screenshot 2024-08-06 154330](https://github.com/user-attachments/assets/88a2bc7c-8d68-4126-9e45-00c1fb73e5f9)
+![Screenshot 2024-08-06 154324](https://github.com/user-attachments/assets/55ce2ff6-0fc8-4e37-a0ea-905a478df26b)
+![Screenshot 2024-08-06 154319](https://github.com/user-attachments/assets/3f90d70e-0674-49fb-98a6-b73d450fb035)
+![Screenshot 2024-08-06 154315](https://github.com/user-attachments/assets/729fb732-ee1e-4d23-a0b9-a425b0acf6b1)
+![Screenshot 2024-08-06 154158](https://github.com/user-attachments/assets/bd875e74-6b39-4d3f-8621-91125464b318)
+
 
 ## Getting Started
 
